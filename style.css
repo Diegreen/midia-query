@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+section {
+    background-color: aqua;
+    width: 100%;
+    border-radius: 1rem;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+aside {
+    background-color: aqua;
+    width: 100%;
+    border-radius: 1rem;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+@media (max-width: 800px) {
+    section {
+        background-color: red;
+    }
+    
+}
